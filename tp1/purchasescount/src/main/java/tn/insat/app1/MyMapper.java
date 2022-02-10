@@ -11,7 +11,6 @@ public class MyMapper extends Mapper<Object, Text, Text, DoubleWritable> {
     private Text word = new Text();
 
     public void map(Object key, Text value, Mapper.Context context) throws IOException, InterruptedException {
-        try {
             String row = value.toString();
             String[] cols = row.split("\t");
             String magasin = cols[2];
@@ -20,9 +19,5 @@ public class MyMapper extends Mapper<Object, Text, Text, DoubleWritable> {
             word.set(magasin);
             writeCost.set(cout);
             context.write(word, writeCost);
-        }
-        catch(Exception e) {
-            e.printStackTrace();
-        }
     }
 }
