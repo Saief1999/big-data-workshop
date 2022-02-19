@@ -21,7 +21,7 @@ We learnt about hadoop's **HDFS**, in addition to **MapReduce** and **Yarn**
 
 #### Application
 
-**Source code** : [tp1](./resources/tp1)
+**Source code** : [tp1](./tp1)
 
 We created a simple application that calculates the total purchases of a store. our input file contains **tab separated values** having this format
 
