@@ -17,7 +17,7 @@ for the purpose of testing this solution, we used 3 **docker containers**:
 - 1 Master
 - 2 Workers
 
-We learnt about hadoop's **HDFS**, in additions to the **MapReduce** and **Yarn**
+We learnt about hadoop's **HDFS**, in additions to **MapReduce** and **Yarn**
 
 #### Application
 
