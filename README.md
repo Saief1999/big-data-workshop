@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Repo represents the work done in our big data workshop
+This Repoitoryrepresents the work done in our big data workshop
 
 ## In Depth
 
@@ -17,7 +17,7 @@ for the purpose of testing this solution, we used 3 **docker containers**:
 - 1 Master
 - 2 Workers
 
-We learnt about hadoop's **HDFS**, in additions to **MapReduce** and **Yarn**
+We learnt about hadoop's **HDFS**, in addition to **MapReduce** and **Yarn**
 
 #### Application
 
@@ -29,7 +29,7 @@ We created a simple application that calculates the total purchases of a store. 
 date   temps   magasin   produit   cout   paiement
 ```
 
-We used the **Mapper** to get the price value for each row, and then the **Reducer** to sum them all up using `magasin` as our key.
+We used the **Mapper** to get the price value for each row in our file, and then the **Reducer** to sum them all up using `magasin` as our key. hadoop uses the workers under the hood to manage the operations.
 
 ##### Result
 
